@@ -88,7 +88,7 @@ spec:
               mountPath: /persistentvolumes
           env:
             - name: PROVISIONER_NAME # do not change
-              value: nfs-provisioner # SAME AS PROVISONER NAME VALUE IN STORAGECLASS
+              value: nfs-provisioner # SAME AS PROVISONER NAME VALUE IN STORAGECLASS provisioner
             - name: NFS_SERVER # do not change
               value: 172.31.37.244 # Ip of the NFS SERVER
             - name: NFS_PATH # do not change
